@@ -1,4 +1,5 @@
-# dodonet (moved from codeplex)
+# dodonet 
+(moved from codeplex)
 
 ## Description
 
@@ -15,7 +16,7 @@ even they can skip between nodes if communication direct does not exist.
 In figure of below It shows two separated networks in which Node 1 send message to
 Node 4 through Node 3.
 
-scheme_jumps.jpg
+![image](https://raw.githubusercontent.com/blancosj/dodonet/master/resources/scheme_jumps.jpg?raw=true)
 
 When a node receive a message, it is assigned to a module that process it.
 After this process the module to create a reply to send back to node that sent it.
@@ -26,7 +27,8 @@ A application have got methods that other node can be execute remotely.
 In other hand, if you would want to create a web server, it would be necessary to add a special application to node.
 This application have got a methods that allow process a request HTTP and generate a reply.
 
-process_http.jpg
+![image](https://raw.githubusercontent.com/blancosj/dodonet/master/resources/process_http.jpg?raw=true)
+
 
 Each node is identified with unique name. This name can be used to send messages nevertheless you can use node IP
 if you know it.
