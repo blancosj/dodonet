@@ -1,0 +1,529 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0D64C1A1-D673-42D7-B90D-D857C85FE314}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DodoNet</RootNamespace>
+    <AssemblyName>DodoNet</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <Optimize>false</Optimize>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Net">
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions">
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq">
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App\App.cs" />
+    <Compile Include="App\AppCollection.cs" />
+    <Compile Include="Authentication\OAuth.cs" />
+    <Compile Include="Checksums\Adler32.cs" />
+    <Compile Include="Checksums\CRC32.cs" />
+    <Compile Include="Checksums\IChecksum.cs" />
+    <Compile Include="Checksums\StrangeCRC.cs" />
+    <Compile Include="Collections\NameValueCollection.cs" />
+    <Compile Include="Compression\BZip2OutputStream085Lmd.cs" />
+    <Compile Include="Compression\BZip2\BZip2.cs" />
+    <Compile Include="Compression\BZip2\BZip2Constants.cs" />
+    <Compile Include="Compression\BZip2\BZip2Exception.cs" />
+    <Compile Include="Compression\BZip2\BZip2InputStream.cs" />
+    <Compile Include="Compression\BZip2\BZip2OutputStream.cs" />
+    <Compile Include="Compression\SharpZipBaseException.cs" />
+    <Compile Include="Config\DodoConfig.cs" />
+    <Compile Include="Extensions\ByteaExtensions.cs" />
+    <Compile Include="Extensions\StreamExtensions.cs" />
+    <Compile Include="Extensions\StringCollectionExtensions.cs" />
+    <Compile Include="Http.Caching\Cache.cs" />
+    <Compile Include="Http.Compilation\AspParser.cs" />
+    <Compile Include="Http.Compilation\AspTokenizer.cs" />
+    <Compile Include="Http.Compilation\DinamicPage.cs" />
+    <Compile Include="Http.Compilation\ILocation.cs" />
+    <Compile Include="Http.Compilation\InterpreterAsmx.cs" />
+    <Compile Include="Http.Compilation\InterpreterAspx.cs" />
+    <Compile Include="Http.Compilation\TagAttributes.cs" />
+    <Compile Include="Http.Compilation\TagType.cs" />
+    <Compile Include="Http.Serialization\HttpSerializableAttribute.cs" />
+    <Compile Include="Http.Util\FileUtils.cs" />
+    <Compile Include="Http.Util\StrUtils.cs" />
+    <Compile Include="Http.Util\TimeUtil.cs" />
+    <Compile Include="Http.Util\UrlUtils.cs" />
+    <Compile Include="Directory\DirectoryCollection.cs" />
+    <Compile Include="Directory\Resolve.cs" />
+    <Compile Include="Environment\ComputerInfo.cs" />
+    <Compile Include="Environment\LibInfo.cs" />
+    <Compile Include="Environment\Shares.cs" />
+    <Compile Include="Events\ILocalEvents.cs" />
+    <Compile Include="Events\IThreadLocalEvent.cs" />
+    <Compile Include="Events\MessageQueue.cs" />
+    <Compile Include="Events\ThreadLocalEvent.cs" />
+    <Compile Include="Http\BadHttpMessage.cs" />
+    <Compile Include="Http\BadProtocolException.cs" />
+    <Compile Include="Http\ContentTypes.cs" />
+    <Compile Include="Http\Directive.cs" />
+    <Compile Include="Http\EnumHttp.cs" />
+    <Compile Include="Http\FileAttached.cs" />
+    <Compile Include="Http\HttpError.cs" />
+    <Compile Include="Http\HttpException.cs" />
+    <Compile Include="Http\HttpInterpreter.cs" />
+    <Compile Include="Http\HttpParameter.cs" />
+    <Compile Include="Http\HttpReceiverStream.cs" />
+    <Compile Include="Http.Serialization\HttpSerializer.cs" />
+    <Compile Include="Http\IHttpMessage.cs" />
+    <Compile Include="Http\IHttpMethod.cs" />
+    <Compile Include="Http\IHttpRender.cs" />
+    <Compile Include="Http\EndResponseException.cs" />
+    <Compile Include="Http\StatusCodes.cs" />
+    <Compile Include="JQuery\JSONP.cs" />
+    <Compile Include="Utility\GenericResolver.cs" />
+    <Compile Include="Web\WebAuth.cs" />
+    <Compile Include="Web\WebSessionCollection.cs" />
+    <Compile Include="Web\WebConfig.cs" />
+    <Compile Include="Http\HttpContext.cs" />
+    <Compile Include="Http\HttpSenderStream.cs" />
+    <Compile Include="Http\HttpTime.cs" />
+    <Compile Include="Http\HttpConst.cs" />
+    <Compile Include="Http\HttpBody.cs" />
+    <Compile Include="Http\HttpHead.cs" />
+    <Compile Include="Http\HttpReply.cs" />
+    <Compile Include="Http\HttpRequest.cs" />
+    <Compile Include="Web\IWebObject.cs" />
+    <Compile Include="Web\IWebApplicationBase.cs" />
+    <Compile Include="Web\IWebSession.cs" />
+    <Compile Include="Web\WebApplication.cs" />
+    <Compile Include="Web\WebSession.cs" />
+    <Compile Include="JScript\CompilationException.cs" />
+    <Compile Include="JScript\engine\activationobject.cs" />
+    <Compile Include="JScript\engine\activexobjectconstructor.cs" />
+    <Compile Include="JScript\engine\addressof.cs" />
+    <Compile Include="JScript\engine\argumentsobject.cs" />
+    <Compile Include="JScript\engine\arrayconstructor.cs" />
+    <Compile Include="JScript\engine\arrayenumerator.cs" />
+    <Compile Include="JScript\engine\arrayliteral.cs" />
+    <Compile Include="JScript\engine\arrayobject.cs" />
+    <Compile Include="JScript\engine\arrayprototype.cs" />
+    <Compile Include="JScript\engine\arraywrapper.cs" />
+    <Compile Include="JScript\engine\assemblycustomattributelist.cs" />
+    <Compile Include="JScript\engine\assign.cs" />
+    <Compile Include="JScript\engine\ast.cs" />
+    <Compile Include="JScript\engine\astlist.cs" />
+    <Compile Include="JScript\engine\basevsa.cs" />
+    <Compile Include="JScript\engine\binaryop.cs" />
+    <Compile Include="JScript\engine\binding.cs" />
+    <Compile Include="JScript\engine\bitwisebinary.cs" />
+    <Compile Include="JScript\engine\bitwisebinaryassign.cs" />
+    <Compile Include="JScript\engine\block.cs" />
+    <Compile Include="JScript\engine\blockscope.cs" />
+    <Compile Include="JScript\engine\booleanconstructor.cs" />
+    <Compile Include="JScript\engine\booleanobject.cs" />
+    <Compile Include="JScript\engine\booleanprototype.cs" />
+    <Compile Include="JScript\engine\break.cs" />
+    <Compile Include="JScript\engine\breakoutoffinally.cs" />
+    <Compile Include="JScript\engine\builtinfunction.cs" />
+    <Compile Include="JScript\engine\call.cs" />
+    <Compile Include="JScript\engine\callableexpression.cs" />
+    <Compile Include="JScript\engine\callcontext.cs" />
+    <Compile Include="JScript\engine\class.cs" />
+    <Compile Include="JScript\engine\classscope.cs" />
+    <Compile Include="JScript\engine\closure.cs" />
+    <Compile Include="JScript\engine\clscompliancespec.cs" />
+    <Compile Include="JScript\engine\cmdlineerror.cs" />
+    <Compile Include="JScript\engine\cmdlineexception.cs" />
+    <Compile Include="JScript\engine\cmdlineoptionparser.cs" />
+    <Compile Include="JScript\engine\comma.cs" />
+    <Compile Include="JScript\engine\compilerglobals.cs" />
+    <Compile Include="JScript\engine\completion.cs" />
+    <Compile Include="JScript\engine\concatstring.cs" />
+    <Compile Include="JScript\engine\conditional.cs" />
+    <Compile Include="JScript\engine\constant.cs" />
+    <Compile Include="JScript\engine\constantlistitem.cs" />
+    <Compile Include="JScript\engine\constantwrapper.cs" />
+    <Compile Include="JScript\engine\constructorcall.cs" />
+    <Compile Include="JScript\engine\context.cs" />
+    <Compile Include="JScript\engine\continue.cs" />
+    <Compile Include="JScript\engine\continueoutoffinally.cs" />
+    <Compile Include="JScript\engine\convert.cs" />
+    <Compile Include="JScript\engine\customattribute.cs" />
+    <Compile Include="JScript\engine\customattributelist.cs" />
+    <Compile Include="JScript\engine\dateconstructor.cs" />
+    <Compile Include="JScript\engine\dateobject.cs" />
+    <Compile Include="JScript\engine\dateprototype.cs" />
+    <Compile Include="JScript\engine\debug.cs" />
+    <Compile Include="JScript\engine\debugbreak.cs" />
+    <Compile Include="JScript\engine\delete.cs" />
+    <Compile Include="JScript\engine\documentcontext.cs" />
+    <Compile Include="JScript\engine\dowhile.cs" />
+    <Compile Include="JScript\engine\empty.cs" />
+    <Compile Include="JScript\engine\emptyliteral.cs" />
+    <Compile Include="JScript\engine\enumdeclaration.cs" />
+    <Compile Include="JScript\engine\enumeratorconstructor.cs" />
+    <Compile Include="JScript\engine\enumeratorobject.cs" />
+    <Compile Include="JScript\engine\enumeratorprototype.cs" />
+    <Compile Include="JScript\engine\enumwrapper.cs" />
+    <Compile Include="JScript\engine\equality.cs" />
+    <Compile Include="JScript\engine\errorconstructor.cs" />
+    <Compile Include="JScript\engine\errorobject.cs" />
+    <Compile Include="JScript\engine\errorprototype.cs" />
+    <Compile Include="JScript\engine\eval.cs" />
+    <Compile Include="JScript\engine\evalerrorobject.cs" />
+    <Compile Include="JScript\engine\expando.cs" />
+    <Compile Include="JScript\engine\expression.cs" />
+    <Compile Include="JScript\engine\fieldaccessor.cs" />
+    <Compile Include="JScript\engine\for.cs" />
+    <Compile Include="JScript\engine\forin.cs" />
+    <Compile Include="JScript\engine\functionconstructor.cs" />
+    <Compile Include="JScript\engine\functiondeclaration.cs" />
+    <Compile Include="JScript\engine\functionexpression.cs" />
+    <Compile Include="JScript\engine\functionobject.cs" />
+    <Compile Include="JScript\engine\functionprototype.cs" />
+    <Compile Include="JScript\engine\functionscope.cs" />
+    <Compile Include="JScript\engine\functionwrapper.cs" />
+    <Compile Include="JScript\engine\globalobject.cs" />
+    <Compile Include="JScript\engine\globals.cs" />
+    <Compile Include="JScript\engine\globalscope.cs" />
+    <Compile Include="JScript\engine\iactivationobject.cs" />
+    <Compile Include="JScript\engine\identifierliteral.cs" />
+    <Compile Include="JScript\engine\if.cs" />
+    <Compile Include="JScript\engine\import.cs" />
+    <Compile Include="JScript\engine\in.cs" />
+    <Compile Include="JScript\engine\ineedengine.cs" />
+    <Compile Include="JScript\engine\instanceof.cs" />
+    <Compile Include="JScript\engine\iwrappedmember.cs" />
+    <Compile Include="JScript\engine\jsbinder.cs" />
+    <Compile Include="JScript\engine\jsclosurefield.cs" />
+    <Compile Include="JScript\engine\jsclosuremethod.cs" />
+    <Compile Include="JScript\engine\jsclosureproperty.cs" />
+    <Compile Include="JScript\engine\jscodegenerator.cs" />
+    <Compile Include="JScript\engine\jsconstructor.cs" />
+    <Compile Include="JScript\engine\jscriptexception.cs" />
+    <Compile Include="JScript\engine\jserror.cs" />
+    <Compile Include="JScript\engine\jsexpandofield.cs" />
+    <Compile Include="JScript\engine\jsexpandoindexermethod.cs" />
+    <Compile Include="JScript\engine\jsfield.cs" />
+    <Compile Include="JScript\engine\jsfieldinfo.cs" />
+    <Compile Include="JScript\engine\jsfieldmethod.cs" />
+    <Compile Include="JScript\engine\jsfunctionattribute.cs" />
+    <Compile Include="JScript\engine\jsglobalfield.cs" />
+    <Compile Include="JScript\engine\jsinproccompiler.cs" />
+    <Compile Include="JScript\engine\jskeyword.cs" />
+    <Compile Include="JScript\engine\jslocalfield.cs" />
+    <Compile Include="JScript\engine\jsmemberfield.cs" />
+    <Compile Include="JScript\engine\jsmethod.cs" />
+    <Compile Include="JScript\engine\jsmethodinfo.cs" />
+    <Compile Include="JScript\engine\jsnativemethod.cs" />
+    <Compile Include="JScript\engine\jsobject.cs" />
+    <Compile Include="JScript\engine\jsparameterinfo.cs" />
+    <Compile Include="JScript\engine\jsparser.cs" />
+    <Compile Include="JScript\engine\jsproperty.cs" />
+    <Compile Include="JScript\engine\jspropertyfield.cs" />
+    <Compile Include="JScript\engine\jspropertyinfo.cs" />
+    <Compile Include="JScript\engine\jsprototypefield.cs" />
+    <Compile Include="JScript\engine\jsprototypeobject.cs" />
+    <Compile Include="JScript\engine\jsscanner.cs" />
+    <Compile Include="JScript\engine\jstoken.cs" />
+    <Compile Include="JScript\engine\jsvariablefield.cs" />
+    <Compile Include="JScript\engine\jswrappedfield.cs" />
+    <Compile Include="JScript\engine\jswrappedmethod.cs" />
+    <Compile Include="JScript\engine\jswrappedproperty.cs" />
+    <Compile Include="JScript\engine\jswrappedpropertyandmethod.cs" />
+    <Compile Include="JScript\engine\latebinding.cs" />
+    <Compile Include="JScript\engine\lenientarrayprototype.cs" />
+    <Compile Include="JScript\engine\lenientbooleanprototype.cs" />
+    <Compile Include="JScript\engine\lenientdateconstructor.cs" />
+    <Compile Include="JScript\engine\lenientdateprototype.cs" />
+    <Compile Include="JScript\engine\lenientenumeratorprototype.cs" />
+    <Compile Include="JScript\engine\lenienterrorprototype.cs" />
+    <Compile Include="JScript\engine\lenientfunctionprototype.cs" />
+    <Compile Include="JScript\engine\lenientglobalobject.cs" />
+    <Compile Include="JScript\engine\lenientmathobject.cs" />
+    <Compile Include="JScript\engine\lenientnumberprototype.cs" />
+    <Compile Include="JScript\engine\lenientobjectprototype.cs" />
+    <Compile Include="JScript\engine\lenientregexpprototype.cs" />
+    <Compile Include="JScript\engine\lenientstringconstructor.cs" />
+    <Compile Include="JScript\engine\lenientstringprototype.cs" />
+    <Compile Include="JScript\engine\lenientvbarrayprototype.cs" />
+    <Compile Include="JScript\engine\listenumerator.cs" />
+    <Compile Include="JScript\engine\logical_and.cs" />
+    <Compile Include="JScript\engine\logical_or.cs" />
+    <Compile Include="JScript\engine\lookup.cs" />
+    <Compile Include="JScript\engine\mathobject.cs" />
+    <Compile Include="JScript\engine\member.cs" />
+    <Compile Include="JScript\engine\memberinfolist.cs" />
+    <Compile Include="JScript\engine\methodinvoker.cs" />
+    <Compile Include="JScript\engine\missing.cs" />
+    <Compile Include="JScript\engine\namespace.cs" />
+    <Compile Include="JScript\engine\notrecommended.cs" />
+    <Compile Include="JScript\engine\nullliteral.cs" />
+    <Compile Include="JScript\engine\numberconstructor.cs" />
+    <Compile Include="JScript\engine\numberobject.cs" />
+    <Compile Include="JScript\engine\numberprototype.cs" />
+    <Compile Include="JScript\engine\numericbinary.cs" />
+    <Compile Include="JScript\engine\numericbinaryassign.cs" />
+    <Compile Include="JScript\engine\numericunary.cs" />
+    <Compile Include="JScript\engine\objectconstructor.cs" />
+    <Compile Include="JScript\engine\objectliteral.cs" />
+    <Compile Include="JScript\engine\objectprototype.cs" />
+    <Compile Include="JScript\engine\obsolete.cs" />
+    <Compile Include="JScript\engine\opprec.cs" />
+    <Compile Include="JScript\engine\package.cs" />
+    <Compile Include="JScript\engine\packagescope.cs" />
+    <Compile Include="JScript\engine\parameterdeclaration.cs" />
+    <Compile Include="JScript\engine\plus.cs" />
+    <Compile Include="JScript\engine\plusassign.cs" />
+    <Compile Include="JScript\engine\postorprefixoperator.cs" />
+    <Compile Include="JScript\engine\print.cs" />
+    <Compile Include="JScript\engine\rangeenumerator.cs" />
+    <Compile Include="JScript\engine\rangeerrorobject.cs" />
+    <Compile Include="JScript\engine\redirectoutput.cs" />
+    <Compile Include="JScript\engine\referenceattribute.cs" />
+    <Compile Include="JScript\engine\referenceerrorobject.cs" />
+    <Compile Include="JScript\engine\regexpconstructor.cs" />
+    <Compile Include="JScript\engine\regexpliteral.cs" />
+    <Compile Include="JScript\engine\regexpmatch.cs" />
+    <Compile Include="JScript\engine\regexpobject.cs" />
+    <Compile Include="JScript\engine\regexpprototype.cs" />
+    <Compile Include="JScript\engine\regexpreplace.cs" />
+    <Compile Include="JScript\engine\relational.cs" />
+    <Compile Include="JScript\engine\resinfo.cs" />
+    <Compile Include="JScript\engine\return.cs" />
+    <Compile Include="JScript\engine\returnoutoffinally.cs" />
+    <Compile Include="JScript\engine\runtime.cs" />
+    <Compile Include="JScript\engine\scannerexception.cs" />
+    <Compile Include="JScript\engine\scriptblock.cs" />
+    <Compile Include="JScript\engine\scriptfunction.cs" />
+    <Compile Include="JScript\engine\scriptobject.cs" />
+    <Compile Include="JScript\engine\scriptobjectpropertyenumerator.cs" />
+    <Compile Include="JScript\engine\scriptstream.cs" />
+    <Compile Include="JScript\engine\simplehashtable.cs" />
+    <Compile Include="JScript\engine\stack.cs" />
+    <Compile Include="JScript\engine\stackframe.cs" />
+    <Compile Include="JScript\engine\staticinitializer.cs" />
+    <Compile Include="JScript\engine\strictequality.cs" />
+    <Compile Include="JScript\engine\stringconstructor.cs" />
+    <Compile Include="JScript\engine\stringobject.cs" />
+    <Compile Include="JScript\engine\stringprototype.cs" />
+    <Compile Include="JScript\engine\supertypememberssorter.cs" />
+    <Compile Include="JScript\engine\switch.cs" />
+    <Compile Include="JScript\engine\switchcase.cs" />
+    <Compile Include="JScript\engine\syntaxerrorobject.cs" />
+    <Compile Include="JScript\engine\thisliteral.cs" />
+    <Compile Include="JScript\engine\throw.cs" />
+    <Compile Include="JScript\engine\try.cs" />
+    <Compile Include="JScript\engine\typedarray.cs" />
+    <Compile Include="JScript\engine\typeerrorobject.cs" />
+    <Compile Include="JScript\engine\typeexpression.cs" />
+    <Compile Include="JScript\engine\typeob.cs" />
+    <Compile Include="JScript\engine\typeof.cs" />
+    <Compile Include="JScript\engine\typereferences.cs" />
+    <Compile Include="JScript\engine\typereflector.cs" />
+    <Compile Include="JScript\engine\unaryop.cs" />
+    <Compile Include="JScript\engine\urierrorobject.cs" />
+    <Compile Include="JScript\engine\variabledeclaration.cs" />
+    <Compile Include="JScript\engine\vbarrayconstructor.cs" />
+    <Compile Include="JScript\engine\vbarrayobject.cs" />
+    <Compile Include="JScript\engine\vbarrayprototype.cs" />
+    <Compile Include="JScript\engine\versionableattribute.cs" />
+    <Compile Include="JScript\engine\voidop.cs" />
+    <Compile Include="JScript\engine\vsa2.cs" />
+    <Compile Include="JScript\engine\vsaengine.cs" />
+    <Compile Include="JScript\engine\vsahostobject.cs" />
+    <Compile Include="JScript\engine\vsaitem.cs" />
+    <Compile Include="JScript\engine\vsaitems.cs" />
+    <Compile Include="JScript\engine\vsanameditemscope.cs" />
+    <Compile Include="JScript\engine\vsareference.cs" />
+    <Compile Include="JScript\engine\vsascriptscope.cs" />
+    <Compile Include="JScript\engine\vsastaticcode.cs" />
+    <Compile Include="JScript\engine\while.cs" />
+    <Compile Include="JScript\engine\with.cs" />
+    <Compile Include="JScript\engine\withobject.cs" />
+    <Compile Include="JScript\engine\wrappednamespace.cs" />
+    <Compile Include="JScript\EvaluatorBuilder.cs" />
+    <Compile Include="JScript\EvaluatorContext.cs" />
+    <Compile Include="JScript\EvaluatorEngine.cs" />
+    <Compile Include="JScript\EvaluatorJScript.cs" />
+    <Compile Include="JScript\IEvaluator.cs" />
+    <Compile Include="JScript\vsa\obsolete.cs" />
+    <Compile Include="JScript\vsa\vsa7.cs" />
+    <Compile Include="JScript\xblock.cs" />
+    <Compile Include="Logs\FileLog.cs" />
+    <Compile Include="Http\HttpField.cs" />
+    <Compile Include="Mailboxes\Packet.cs" />
+    <Compile Include="Mailboxes\MailboxIn.cs" />
+    <Compile Include="Mailboxes\MailboxOut.cs" />
+    <Compile Include="Mailboxes\TypeFrame.cs" />
+    <Compile Include="Mailboxes\TypePacket.cs" />
+    <Compile Include="Mailboxes\TypeRequest.cs" />
+    <Compile Include="Message\ContextMessage.cs" />
+    <Compile Include="Events\LocalEvents.cs" />
+    <Compile Include="Exception\DodoException.cs" />
+    <Compile Include="Message\DodoMessage.cs" />
+    <Compile Include="Message\LocalMessage.cs" />
+    <Compile Include="Message\Message.cs" />
+    <Compile Include="Message\WebMessage.cs" />
+    <Compile Include="Node\NodeInfo.cs" />
+    <Compile Include="Overlay\Delegates.cs" />
+    <None Include="Overlay\Generics\OverlayReply.cs" />
+    <Compile Include="Overlay\Generics\OverlayRequest.cs" />
+    <Compile Include="Overlay\IOverlayFileStream.cs" />
+    <Compile Include="Overlay\OverlayError.cs" />
+    <Compile Include="Overlay\RequestAsyncResult.cs" />
+    <Compile Include="Overlay\RequestReplyWeb.cs" />
+    <Compile Include="Overlay\RouterCont.cs" />
+    <Compile Include="Node\Node.cs" />
+    <Compile Include="Node\NodeAddress.cs" />
+    <Compile Include="Node\NodeBind.cs" />
+    <Compile Include="Node\NodeId.cs" />
+    <Compile Include="Overlay\Continuation.cs" />
+    <Compile Include="Overlay\OverlayMsg.cs" />
+    <Compile Include="Overlay\OverlayReply.cs" />
+    <Compile Include="Overlay\OverlayRequest.cs" />
+    <Compile Include="Overlay\Timer.cs" />
+    <Compile Include="Overlay\RequestReply.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Route\Route.cs" />
+    <Compile Include="Route\RouteChecker.cs" />
+    <Compile Include="Route\RouteCollection.cs" />
+    <Compile Include="Runtime\Serialization.cs" />
+    <Compile Include="Session\Enums.cs" />
+    <Compile Include="Session\ISessionFinalizeReply.cs" />
+    <Compile Include="Session\ISessionReply.cs" />
+    <Compile Include="Session\ISessionRequest.cs" />
+    <Compile Include="Session\SessionCollection.cs" />
+    <Compile Include="Session\SessionRequest.cs" />
+    <Compile Include="Session\SessionChecker.cs" />
+    <Compile Include="Session\SessionCheckReply.cs" />
+    <Compile Include="Session\SessionCheckRequest.cs" />
+    <Compile Include="Session\SessionFinalize.cs" />
+    <Compile Include="Session\SessionFinalizeReply.cs" />
+    <Compile Include="Session\SessionReply.cs" />
+    <Compile Include="SmartThreadPool\CallerThreadContext.cs" />
+    <Compile Include="SmartThreadPool\EventWaitHandle.cs" />
+    <Compile Include="SmartThreadPool\EventWaitHandleFactory.cs" />
+    <Compile Include="SmartThreadPool\Exceptions.cs" />
+    <Compile Include="SmartThreadPool\Interfaces.cs" />
+    <Compile Include="SmartThreadPool\PriorityQueue.cs" />
+    <Compile Include="SmartThreadPool\SmartThreadPool.cs" />
+    <Compile Include="SmartThreadPool\STPPerformanceCounter.cs" />
+    <Compile Include="SmartThreadPool\STPStartInfo.cs" />
+    <Compile Include="SmartThreadPool\SynchronizedDictionary.cs" />
+    <Compile Include="SmartThreadPool\WIGStartInfo.cs" />
+    <Compile Include="SmartThreadPool\WorkItem.cs" />
+    <Compile Include="SmartThreadPool\WorkItemFactory.cs" />
+    <Compile Include="SmartThreadPool\WorkItemInfo.cs" />
+    <Compile Include="SmartThreadPool\WorkItemResultTWrapper.cs" />
+    <Compile Include="SmartThreadPool\WorkItemsGroup.cs" />
+    <Compile Include="SmartThreadPool\WorkItemsGroupBase.cs" />
+    <Compile Include="SmartThreadPool\WorkItemsQueue.cs" />
+    <Compile Include="Message\TimerMessage.cs" />
+    <Compile Include="Tcp\Protocols.cs" />
+    <Compile Include="Tcp\TcpConfig.cs" />
+    <Compile Include="Tools\Extra.cs" />
+    <Compile Include="Tools\ReadableDataLength.cs" />
+    <Compile Include="Tools\Streams.cs" />
+    <Compile Include="Compression\GZip\GZip.cs" />
+    <Compile Include="Utility\Dns\ANameRecord.cs" />
+    <Compile Include="Utility\Dns\CacheMXRecords.cs" />
+    <Compile Include="Utility\Dns\Enums.cs" />
+    <Compile Include="Utility\Dns\InvalidResponseException.cs" />
+    <Compile Include="Utility\Dns\MXRecord.cs" />
+    <Compile Include="Utility\Dns\NoResponseException.cs" />
+    <Compile Include="Utility\Dns\NSRecord.cs" />
+    <Compile Include="Utility\Dns\Pointer.cs" />
+    <Compile Include="Utility\Dns\Question.cs" />
+    <Compile Include="Utility\Dns\RecordBase.cs" />
+    <Compile Include="Utility\Dns\Request.cs" />
+    <Compile Include="Utility\Dns\Resolver.cs" />
+    <Compile Include="Utility\Dns\ResourceRecord.cs" />
+    <Compile Include="Utility\Dns\Response.cs" />
+    <Compile Include="Utility\Dns\SoaRecord.cs" />
+    <Compile Include="Utility\Exceptions.cs" />
+    <Compile Include="Utility\Host.cs" />
+    <Compile Include="Tools\RandomDataGenerator.cs" />
+    <Compile Include="Utility\Serialization.cs" />
+    <Compile Include="Utility\Utility.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="JScript\engine\microsoft.jscript.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="JScript\engine\microsoft.jscript.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\log4net\log4net.csproj">
+      <Project>{F6A02431-167E-4347-BC43-65532C31CDB7}</Project>
+      <Name>log4net</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

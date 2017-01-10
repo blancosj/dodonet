@@ -1,0 +1,14 @@
+﻿<Properties StartupConfiguration="{7C98EDD7-615C-43CD-A53F-172AEF6778AB}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Dodo2009 Status">
+    <Files>
+      <File FileName="Dodo2009 Status" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.LightApp PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>

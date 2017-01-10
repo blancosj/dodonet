@@ -1,0 +1,6 @@
+------------	------------------------------------------------------------------------------------
+Version			Descripción
+------------	------------------------------------------------------------------------------------	
+1.1.2.1			º En la serialización de objetos se añade una propiedad nueva typeName con el 
+				  nombre del tipo a serializar.
+1.1.2.2			º No se serializan las propiedades con tipos no serializables				  

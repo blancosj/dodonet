@@ -1,0 +1,24 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="DodoService" GeneratedClassName="Settings1">
+  <Profiles />
+  <Settings>
+    <Setting Name="ScribdApiKey" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">4pm04xp2j5pyyi9u49g17</Value>
+    </Setting>
+    <Setting Name="ScribdSecretKey" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">sec-6gv9usosv0o1qe61gmrez7y6uc</Value>
+    </Setting>
+    <Setting Name="ScribdPublisherId" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">pub-51344675976687955773</Value>
+    </Setting>
+    <Setting Name="ScribdEnforceSigning" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="ScribdUserName" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">poweqscribd</Value>
+    </Setting>
+    <Setting Name="ScribdPassword" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">12qwaszx</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

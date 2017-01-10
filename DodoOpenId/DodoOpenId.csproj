@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D7275F20-FA9F-4CCC-8774-F023972B2E66}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DodoOpenId</RootNamespace>
+    <AssemblyName>DodoOpenId</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq">
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="EmptyEnumerator.cs" />
+    <None Include="EmptyList.cs" />
+    <None Include="ErrorUtilities.cs" />
+    <None Include="Identifier.cs" />
+    <None Include="IdentifierDiscoveryResult.cs" />
+    <None Include="IExtensionMessage.cs" />
+    <None Include="IMessage.cs" />
+    <None Include="InternalErrorException.cs" />
+    <None Include="IOpenIdMessageExtension.cs" />
+    <None Include="IProtocolMessage.cs" />
+    <None Include="IProviderEndpoint.cs" />
+    <None Include="MessageProtections.cs" />
+    <None Include="MessageTransport.cs" />
+    <None Include="NoDiscoveryIdentifier.cs" />
+    <Compile Include="OpenIdStrings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>OpenIdStrings.resx</DependentUpon>
+    </Compile>
+    <None Include="OpenIdXrdsHelper.cs" />
+    <Compile Include="OpenId\AuthenticationRequest.cs" />
+    <Compile Include="OpenId\CheckerAssociations.cs" />
+    <Compile Include="OpenId\DiscoverRequest.cs" />
+    <Compile Include="OpenId\ErrorUtilities.cs" />
+    <Compile Include="OpenId\InternalErrorException.cs" />
+    <Compile Include="OpenId\KeyAssociation.cs" />
+    <Compile Include="OpenId\OpenIdApp.cs" />
+    <Compile Include="OpenId\Protocol.cs" />
+    <Compile Include="OpenId\ProtocolException.cs" />
+    <Compile Include="OpenId\ProtocolVersion.cs" />
+    <Compile Include="OpenId\QueryArguments.cs" />
+    <Compile Include="OpenId\ServiceElement.cs" />
+    <Compile Include="OpenId\TypeElement.cs" />
+    <Compile Include="OpenId\UrlElement.cs" />
+    <Compile Include="OpenId\XrdElement.cs" />
+    <Compile Include="OpenId\XrdsDocument.cs" />
+    <Compile Include="OpenId\XrdsNode.cs" />
+    <None Include="Protocol.cs" />
+    <None Include="ProtocolException.cs" />
+    <None Include="ProtocolVersion.cs" />
+    <None Include="ProviderEndpointDescription.cs" />
+    <None Include="RelyingPartyEndpointDescription.cs" />
+    <None Include="ServiceElement.cs" />
+    <None Include="TypeElement.cs" />
+    <None Include="UriIdentifier.cs" />
+    <None Include="UrlElement.cs" />
+    <None Include="Util.cs" />
+    <None Include="XrdElement.cs" />
+    <None Include="XrdsDocument.cs" />
+    <Compile Include="OpenId\XrdsStrings.Designer.cs">
+      <DependentUpon>XrdsStrings.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <None Include="XrdsNode.cs" />
+    <Compile Include="XrdsStrings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>XrdsStrings.resx</DependentUpon>
+    </Compile>
+    <None Include="XriIdentifier.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="OpenIdStrings.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>OpenIdStrings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="XrdsStrings.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>XrdsStrings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="OpenId\XrdsStrings.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>XrdsStrings.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DodoNet\DodoNet.csproj">
+      <Project>{0D64C1A1-D673-42D7-B90D-D857C85FE314}</Project>
+      <Name>DodoNet</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,1080 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="at call to" xml:space="preserve">
+    <value>at call to</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="in line" xml:space="preserve">
+    <value>in line</value>
+  </data>
+  <data name="Line" xml:space="preserve">
+    <value>Line</value>
+  </data>
+  <data name="No description available" xml:space="preserve">
+    <value>No description available</value>
+  </data>
+  <data name="5" xml:space="preserve">
+    <value>Invalid procedure call or argument</value>
+  </data>
+  <data name="7" xml:space="preserve">
+    <value>Out of memory</value>
+  </data>
+  <data name="13" xml:space="preserve">
+    <value>Type mismatch</value>
+  </data>
+  <data name="28" xml:space="preserve">
+    <value>Out of stack space</value>
+  </data>
+  <data name="51" xml:space="preserve">
+    <value>Internal error</value>
+  </data>
+  <data name="53" xml:space="preserve">
+    <value>File not found</value>
+  </data>
+  <data name="424" xml:space="preserve">
+    <value>Object required</value>
+  </data>
+  <data name="429" xml:space="preserve">
+    <value>Can't create object</value>
+  </data>
+  <data name="438" xml:space="preserve">
+    <value>Object doesn't support this property or method</value>
+  </data>
+  <data name="445" xml:space="preserve">
+    <value>Object doesn't support this action</value>
+  </data>
+  <data name="451" xml:space="preserve">
+    <value>Object is not a collection</value>
+  </data>
+  <data name="1002" xml:space="preserve">
+    <value>Syntax error</value>
+  </data>
+  <data name="1003" xml:space="preserve">
+    <value>Expected ':'</value>
+  </data>
+  <data name="1004" xml:space="preserve">
+    <value>Expected ';'</value>
+  </data>
+  <data name="1005" xml:space="preserve">
+    <value>Expected '('</value>
+  </data>
+  <data name="1006" xml:space="preserve">
+    <value>Expected ')'</value>
+  </data>
+  <data name="1007" xml:space="preserve">
+    <value>Expected ']'</value>
+  </data>
+  <data name="1008" xml:space="preserve">
+    <value>Expected '{'</value>
+  </data>
+  <data name="1009" xml:space="preserve">
+    <value>Expected '}'</value>
+  </data>
+  <data name="1010" xml:space="preserve">
+    <value>Expected identifier</value>
+  </data>
+  <data name="1011" xml:space="preserve">
+    <value>Expected '='</value>
+  </data>
+  <data name="1014" xml:space="preserve">
+    <value>Invalid character</value>
+  </data>
+  <data name="1015" xml:space="preserve">
+    <value>Unterminated string constant</value>
+  </data>
+  <data name="1016" xml:space="preserve">
+    <value>Unterminated comment</value>
+  </data>
+  <data name="1018" xml:space="preserve">
+    <value>'return' statement outside of function</value>
+  </data>
+  <data name="1019" xml:space="preserve">
+    <value>Can't have 'break' outside of loop</value>
+  </data>
+  <data name="1020" xml:space="preserve">
+    <value>Can't have 'continue' outside of loop</value>
+  </data>
+  <data name="1023" xml:space="preserve">
+    <value>Expected hexadecimal digit</value>
+  </data>
+  <data name="1024" xml:space="preserve">
+    <value>Expected 'while'</value>
+  </data>
+  <data name="1025" xml:space="preserve">
+    <value>Label redefined</value>
+  </data>
+  <data name="1026" xml:space="preserve">
+    <value>Label not found</value>
+  </data>
+  <data name="1027" xml:space="preserve">
+    <value>'default' can only appear once in a 'switch' statement</value>
+  </data>
+  <data name="1028" xml:space="preserve">
+    <value>Expected identifier or string</value>
+  </data>
+  <data name="1029" xml:space="preserve">
+    <value>Expected '@end'</value>
+  </data>
+  <data name="1030" xml:space="preserve">
+    <value>Conditional compilation is turned off</value>
+  </data>
+  <data name="1031" xml:space="preserve">
+    <value>Expected constant</value>
+  </data>
+  <data name="1032" xml:space="preserve">
+    <value>Expected '@'</value>
+  </data>
+  <data name="1033" xml:space="preserve">
+    <value>Expected 'catch'</value>
+  </data>
+  <data name="1034" xml:space="preserve">
+    <value>Unmatched 'else'; no 'if' defined</value>
+  </data>
+  <data name="1100" xml:space="preserve">
+    <value>Expected ','</value>
+  </data>
+  <data name="1101" xml:space="preserve">
+    <value>Visibility modifier already defined</value>
+  </data>
+  <data name="1102" xml:space="preserve">
+    <value>Invalid visibility modifier</value>
+  </data>
+  <data name="1103" xml:space="preserve">
+    <value>Missing 'case' or 'default' statement</value>
+  </data>
+  <data name="1104" xml:space="preserve">
+    <value>Unmatched '@end'; no '@if' defined</value>
+  </data>
+  <data name="1105" xml:space="preserve">
+    <value>Unmatched '@else'; no '@if' defined</value>
+  </data>
+  <data name="1106" xml:space="preserve">
+    <value>Unmatched '@elif'; no '@if' defined</value>
+  </data>
+  <data name="1107" xml:space="preserve">
+    <value>Expecting more source characters</value>
+  </data>
+  <data name="1108" xml:space="preserve">
+    <value>Incompatible visibility modifier</value>
+  </data>
+  <data name="1109" xml:space="preserve">
+    <value>Class definition not allowed in this context</value>
+  </data>
+  <data name="1110" xml:space="preserve">
+    <value>Expression must be a compile time constant</value>
+  </data>
+  <data name="1111" xml:space="preserve">
+    <value>Identifier already in use;;'{0}' is already defined</value>
+  </data>
+  <data name="1112" xml:space="preserve">
+    <value>Type name expected</value>
+  </data>
+  <data name="1113" xml:space="preserve">
+    <value>Only valid inside a class definition</value>
+  </data>
+  <data name="1114" xml:space="preserve">
+    <value>Unknown position directive</value>
+  </data>
+  <data name="1115" xml:space="preserve">
+    <value>Directive may not be followed by other code on the same line</value>
+  </data>
+  <data name="1118" xml:space="preserve">
+    <value>Wrong debugger directive or wrong position for the directive</value>
+  </data>
+  <data name="1119" xml:space="preserve">
+    <value>Position directives cannot be nested</value>
+  </data>
+  <data name="1120" xml:space="preserve">
+    <value>Circular definition</value>
+  </data>
+  <data name="1121" xml:space="preserve">
+    <value>Deprecated;;Deprecated: {0}</value>
+  </data>
+  <data name="1122" xml:space="preserve">
+    <value>It is invalid to use 'this' in current context</value>
+  </data>
+  <data name="1123" xml:space="preserve">
+    <value>Not accessible from this scope;;'{0}' is not accessible from this scope</value>
+  </data>
+  <data name="1124" xml:space="preserve">
+    <value>Only a constructor function can have the same name as the class it appears in</value>
+  </data>
+  <data name="1128" xml:space="preserve">
+    <value>Class must provide implementation;;No implementation provided for '{0}'</value>
+  </data>
+  <data name="1129" xml:space="preserve">
+    <value>Interface name expected</value>
+  </data>
+  <data name="1133" xml:space="preserve">
+    <value>Catch clause will never be reached</value>
+  </data>
+  <data name="1134" xml:space="preserve">
+    <value>Type cannot be extended;;Type: '{0}' cannot be extended</value>
+  </data>
+  <data name="1135" xml:space="preserve">
+    <value>Variable has not been declared;;Variable '{0}' has not been declared</value>
+  </data>
+  <data name="1136" xml:space="preserve">
+    <value>Leaving variables uninitialized is dangerous and makes them slow to use. Did you intend to leave this variable uninitialized?;;Leaving variables uninitialized is dangerous and makes them slow to use. Did you intend to leave '{0}' uninitialized?</value>
+  </data>
+  <data name="1137" xml:space="preserve">
+    <value>This is a new reserved word and should not be used as an identifier;;'{0}' is a new reserved word and should not be used as an identifier</value>
+  </data>
+  <data name="1140" xml:space="preserve">
+    <value>Not allowed in a call to a base class constructor</value>
+  </data>
+  <data name="1141" xml:space="preserve">
+    <value>This constructor or property getter/setter method is not meant to be called directly;;'{0}' is not meant to be called directly</value>
+  </data>
+  <data name="1142" xml:space="preserve">
+    <value>The get and set methods of this property do not match each other</value>
+  </data>
+  <data name="1143" xml:space="preserve">
+    <value>A custom attribute class must derive from System.Attribute</value>
+  </data>
+  <data name="1144" xml:space="preserve">
+    <value>Only primitive types are allowed in a custom attribute</value>
+  </data>
+  <data name="1146" xml:space="preserve">
+    <value>Unknown custom attribute class or constructor</value>
+  </data>
+  <data name="1148" xml:space="preserve">
+    <value>There are too many arguments. The extra arguments will be ignored</value>
+  </data>
+  <data name="1149" xml:space="preserve">
+    <value>The with statement has made the use of this name ambiguous;;The with statement has made the use of '{0}' ambiguous</value>
+  </data>
+  <data name="1150" xml:space="preserve">
+    <value>The presence of eval has made the use of this name ambiguous;;The presence of eval has made the use of '{0}' ambiguous</value>
+  </data>
+  <data name="1151" xml:space="preserve">
+    <value>Object does not have such a member;;Objects of type '{0}' do not have such a member</value>
+  </data>
+  <data name="1152" xml:space="preserve">
+    <value>Cannot define the property Item on an Expando class. Item is reserved for the expando fields</value>
+  </data>
+  <data name="1153" xml:space="preserve">
+    <value>Cannot define get_Item or set_Item on an Expando class. Methods reserved for the expando fields</value>
+  </data>
+  <data name="1155" xml:space="preserve">
+    <value>Base class defines get_Item or set_Item, cannot create expando class. Methods reserved for the expando fields</value>
+  </data>
+  <data name="1156" xml:space="preserve">
+    <value>A base class is already marked expando; current specification will be ignored</value>
+  </data>
+  <data name="1157" xml:space="preserve">
+    <value>An abstract method cannot be private</value>
+  </data>
+  <data name="1158" xml:space="preserve">
+    <value>Objects of this type cannot be indexed;;Objects of type '{0}' cannot be indexed</value>
+  </data>
+  <data name="1159" xml:space="preserve">
+    <value>Syntax error. Use 'static classname {...}' to define a class initializer</value>
+  </data>
+  <data name="1160" xml:space="preserve">
+    <value>The list of attributes does not apply to the current context</value>
+  </data>
+  <data name="1161" xml:space="preserve">
+    <value>Only classes are allowed inside a package</value>
+  </data>
+  <data name="1162" xml:space="preserve">
+    <value>Expando classes should not implement IEnumerable. The interface is implicitly defined on expando classes</value>
+  </data>
+  <data name="1163" xml:space="preserve">
+    <value>The specified member is not CLS compliant</value>
+  </data>
+  <data name="1164" xml:space="preserve">
+    <value>Member cannot be deleted;;'{0}' cannot be deleted</value>
+  </data>
+  <data name="1165" xml:space="preserve">
+    <value>Package name expected</value>
+  </data>
+  <data name="1169" xml:space="preserve">
+    <value>Expression has no effect. Parentheses are required for function calls</value>
+  </data>
+  <data name="1170" xml:space="preserve">
+    <value>Hides another member declared in the base class;;Base class member '{0}' is hidden by this declaration</value>
+  </data>
+  <data name="1171" xml:space="preserve">
+    <value>Cannot change visibility specification of a base method</value>
+  </data>
+  <data name="1172" xml:space="preserve">
+    <value>Method hides abstract method in a base class;;Method '{0}' hides abstract method in a base class</value>
+  </data>
+  <data name="1173" xml:space="preserve">
+    <value>Method matches a method in a base class. Specify 'override' or 'hide' to suppress this message</value>
+  </data>
+  <data name="1174" xml:space="preserve">
+    <value>Method matches a non-overridable method in a base class. Specify 'hide' to suppress this message</value>
+  </data>
+  <data name="1175" xml:space="preserve">
+    <value>There is no member in a base class to hide</value>
+  </data>
+  <data name="1176" xml:space="preserve">
+    <value>Method in base has a different return type;;Method '{0}' is already defined in a base class with a different return type</value>
+  </data>
+  <data name="1177" xml:space="preserve">
+    <value>Clashes with property</value>
+  </data>
+  <data name="1178" xml:space="preserve">
+    <value>Cannot use 'override' and 'hide' together</value>
+  </data>
+  <data name="1179" xml:space="preserve">
+    <value>Invalid option</value>
+  </data>
+  <data name="1180" xml:space="preserve">
+    <value>There is no matching method in a base class to override</value>
+  </data>
+  <data name="1181" xml:space="preserve">
+    <value>Not valid for a constructor</value>
+  </data>
+  <data name="1182" xml:space="preserve">
+    <value>Cannot return a value from a constructor or void function</value>
+  </data>
+  <data name="1183" xml:space="preserve">
+    <value>More than one method or property matches this argument list</value>
+  </data>
+  <data name="1184" xml:space="preserve">
+    <value>More than one constructor matches this argument list</value>
+  </data>
+  <data name="1185" xml:space="preserve">
+    <value>Base class constructor is not accessible from this scope</value>
+  </data>
+  <data name="1186" xml:space="preserve">
+    <value>Octal literals are deprecated</value>
+  </data>
+  <data name="1187" xml:space="preserve">
+    <value>Variable might not be initialized;;Variable '{0}' might not be initialized</value>
+  </data>
+  <data name="1188" xml:space="preserve">
+    <value>It is not valid to call a base class constructor from this location</value>
+  </data>
+  <data name="1189" xml:space="preserve">
+    <value>It is not valid to use the super keyword in this way</value>
+  </data>
+  <data name="1190" xml:space="preserve">
+    <value>It is slow and potentially confusing to leave a finally block this way. Is this intentional?</value>
+  </data>
+  <data name="1191" xml:space="preserve">
+    <value>Expected ','. Write 'identifier : Type' rather than 'Type identifier' to declare a typed parameter</value>
+  </data>
+  <data name="1192" xml:space="preserve">
+    <value>Abstract function cannot have body</value>
+  </data>
+  <data name="1193" xml:space="preserve">
+    <value>Expected ',' or ')'</value>
+  </data>
+  <data name="1194" xml:space="preserve">
+    <value>Expected ',' or ']'</value>
+  </data>
+  <data name="1195" xml:space="preserve">
+    <value>Expected expression</value>
+  </data>
+  <data name="1196" xml:space="preserve">
+    <value>Unexpected ';'</value>
+  </data>
+  <data name="1197" xml:space="preserve">
+    <value>Too many errors. The file might not be a JScript file</value>
+  </data>
+  <data name="1198" xml:space="preserve">
+    <value>Syntax error. Write 'var identifier : Type' rather than 'Type identifier' to declare a typed variable</value>
+  </data>
+  <data name="1199" xml:space="preserve">
+    <value>Syntax error. Write 'function identifier(...) : Type{' rather than 'Type identifier(...){' to declare a typed function</value>
+  </data>
+  <data name="1200" xml:space="preserve">
+    <value>Invalid property declaration. The getter must not have arguments and the setter must have one argument</value>
+  </data>
+  <data name="1203" xml:space="preserve">
+    <value>Expression does not have an address</value>
+  </data>
+  <data name="1204" xml:space="preserve">
+    <value>Not all required arguments have been supplied</value>
+  </data>
+  <data name="1205" xml:space="preserve">
+    <value>Assignment creates an expando property that is immediately thrown away</value>
+  </data>
+  <data name="1206" xml:space="preserve">
+    <value>Did you intend to write an assignment here?</value>
+  </data>
+  <data name="1207" xml:space="preserve">
+    <value>Did you intend to have an empty statement for this branch of the if statement?</value>
+  </data>
+  <data name="1208" xml:space="preserve">
+    <value>The specified conversion or coercion is not possible</value>
+  </data>
+  <data name="1209" xml:space="preserve">
+    <value>final and abstract cannot be used together</value>
+  </data>
+  <data name="1210" xml:space="preserve">
+    <value>Must be an instance;;Must be an instance of type '{0}'</value>
+  </data>
+  <data name="1212" xml:space="preserve">
+    <value>Cannot be abstract unless the declaring class is marked as abstract;;'{0}' cannot be abstract unless the declaring class is marked as abstract</value>
+  </data>
+  <data name="1213" xml:space="preserve">
+    <value>The base type of an enum must be a primitive integral type</value>
+  </data>
+  <data name="1214" xml:space="preserve">
+    <value>It is not possible to construct an instance of an abstract class</value>
+  </data>
+  <data name="1215" xml:space="preserve">
+    <value>Converting a JScript Array to a System.Array results in a memory allocation and an array copy</value>
+  </data>
+  <data name="1216" xml:space="preserve">
+    <value>Static methods cannot be abstract</value>
+  </data>
+  <data name="1217" xml:space="preserve">
+    <value>Static methods cannot be final</value>
+  </data>
+  <data name="1218" xml:space="preserve">
+    <value>Static methods cannot override base class methods</value>
+  </data>
+  <data name="1219" xml:space="preserve">
+    <value>Static methods cannot hide base class methods</value>
+  </data>
+  <data name="1220" xml:space="preserve">
+    <value>Expando methods cannot override base class methods</value>
+  </data>
+  <data name="1221" xml:space="preserve">
+    <value>A variable argument list must be of an array type</value>
+  </data>
+  <data name="1222" xml:space="preserve">
+    <value>Expando methods cannot be abstract</value>
+  </data>
+  <data name="1223" xml:space="preserve">
+    <value>A function without a body should be abstract</value>
+  </data>
+  <data name="1224" xml:space="preserve">
+    <value>This modifier cannot be used on an interface member</value>
+  </data>
+  <data name="1226" xml:space="preserve">
+    <value>Variables cannot be declared in an interface</value>
+  </data>
+  <data name="1227" xml:space="preserve">
+    <value>Interfaces cannot be declared in an interface</value>
+  </data>
+  <data name="1228" xml:space="preserve">
+    <value>Enum member declarations should not use the 'var' keyword</value>
+  </data>
+  <data name="1229" xml:space="preserve">
+    <value>The import statement is not valid in this context</value>
+  </data>
+  <data name="1230" xml:space="preserve">
+    <value>Enum declaration not allowed in this context</value>
+  </data>
+  <data name="1231" xml:space="preserve">
+    <value>Attribute not valid for this type of declaration;;Attribute '{0}' is not valid for this type of declaration</value>
+  </data>
+  <data name="1232" xml:space="preserve">
+    <value>Package declaration not allowed in this context</value>
+  </data>
+  <data name="1233" xml:space="preserve">
+    <value>A constructor function may not have a return type</value>
+  </data>
+  <data name="1234" xml:space="preserve">
+    <value>Only type and package definitions are allowed inside a library</value>
+  </data>
+  <data name="1235" xml:space="preserve">
+    <value>Invalid debug directive</value>
+  </data>
+  <data name="1236" xml:space="preserve">
+    <value>This type of attribute must be unique</value>
+  </data>
+  <data name="1237" xml:space="preserve">
+    <value>A non-static nested type can only be extended by non-static type nested in the same class</value>
+  </data>
+  <data name="1238" xml:space="preserve">
+    <value>An attribute that targets the property must be specified on the property getter, if present</value>
+  </data>
+  <data name="1239" xml:space="preserve">
+    <value>A throw must have an argument when not inside the catch block of a try statement</value>
+  </data>
+  <data name="1240" xml:space="preserve">
+    <value>A variable argument list must be the last argument</value>
+  </data>
+  <data name="1241" xml:space="preserve">
+    <value>;;Type '{0}' could not be found, is an assembly reference missing?</value>
+  </data>
+  <data name="1242" xml:space="preserve">
+    <value>Malformed octal literal treated as decimal literal</value>
+  </data>
+  <data name="1243" xml:space="preserve">
+    <value>A non-static member is not accessible from a static scope;;Non-static member '{0}' is not accessible from a static scope</value>
+  </data>
+  <data name="1244" xml:space="preserve">
+    <value>A static member must be accessed with the class name;;The static member '{0}' must be accessed with the class name</value>
+  </data>
+  <data name="1245" xml:space="preserve">
+    <value>A non-static member cannot be accessed with the class name;;The non-static member '{0}' cannot be accessed with the class name</value>
+  </data>
+  <data name="1246" xml:space="preserve">
+    <value>Type does not have such a static member;;Type '{0}' does not have such a static member</value>
+  </data>
+  <data name="1247" xml:space="preserve">
+    <value>The loop condition is a function reference.  Did you intend to call the function?</value>
+  </data>
+  <data name="1248" xml:space="preserve">
+    <value>Expected 'assembly'</value>
+  </data>
+  <data name="1249" xml:space="preserve">
+    <value>Assembly custom attributes may not be part of another construct</value>
+  </data>
+  <data name="1250" xml:space="preserve">
+    <value>Expando methods cannot be static</value>
+  </data>
+  <data name="1251" xml:space="preserve">
+    <value>This method has the same name and parameter types as another method in this class</value>
+  </data>
+  <data name="1252" xml:space="preserve">
+    <value>Class members used as constructors should be marked as expando functions</value>
+  </data>
+  <data name="1253" xml:space="preserve">
+    <value>Not a valid version string. Expected format is major.minor[.build[.revision]]</value>
+  </data>
+  <data name="1254" xml:space="preserve">
+    <value>Executables cannot be localized, Culture should always be empty</value>
+  </data>
+  <data name="1255" xml:space="preserve">
+    <value>The plus operator is a slow way to concatenate strings. Consider using System.Text.StringBuilder instead</value>
+  </data>
+  <data name="1256" xml:space="preserve">
+    <value>Conditional compilation directives and variables cannot be used in the debugger</value>
+  </data>
+  <data name="1257" xml:space="preserve">
+    <value>Expando methods must be public</value>
+  </data>
+  <data name="1258" xml:space="preserve">
+    <value>Delegates should not be explicitly constructed, simply use the method name</value>
+  </data>
+  <data name="1259" xml:space="preserve">
+    <value>A referenced assembly depends on another assembly that is not referenced or could not be found;;A referenced assembly requires you to also reference '{0}'</value>
+  </data>
+  <data name="1260" xml:space="preserve">
+    <value>This conversion may fail at runtime</value>
+  </data>
+  <data name="1261" xml:space="preserve">
+    <value>Converting a string to a number or boolean is slow and may fail at runtime</value>
+  </data>
+  <data name="1262" xml:space="preserve">
+    <value>Not a valid .resources file;;{0} is not a valid .resources file</value>
+  </data>
+  <data name="1263" xml:space="preserve">
+    <value>The &amp; operator can only be used in a list of arguments</value>
+  </data>
+  <data name="1264" xml:space="preserve">
+    <value>The specified type is not CLS compliant</value>
+  </data>
+  <data name="1265" xml:space="preserve">
+    <value>Class member cannot be marked CLS compliant because the class is not marked as CLS compliant</value>
+  </data>
+  <data name="1266" xml:space="preserve">
+    <value>Type cannot be marked CLS compliant because the assembly is not marked as CLS compliant</value>
+  </data>
+  <data name="1267" xml:space="preserve">
+    <value>Referenced assembly targets a different processor;;Referenced assembly '{0}' targets a different processor</value>
+  </data>
+  <data name="1268" xml:space="preserve">
+    <value>Assembly key file not found or contains invalid data;;Assembly key file '{0}' not found or contains invalid data</value>
+  </data>
+  <data name="1269" xml:space="preserve">
+    <value>Fully qualified type name must be less than 1024 characters;;Fully qualified type name '{0}' must be less than 1024 characters</value>
+  </data>
+  <data name="1270" xml:space="preserve">
+    <value>A class member initializer cannot contain a function expression</value>
+  </data>
+  <data name="5000" xml:space="preserve">
+    <value>Cannot assign to 'this'</value>
+  </data>
+  <data name="5001" xml:space="preserve">
+    <value>Number expected</value>
+  </data>
+  <data name="5002" xml:space="preserve">
+    <value>Function expected</value>
+  </data>
+  <data name="5003" xml:space="preserve">
+    <value>Cannot assign to a function result</value>
+  </data>
+  <data name="5005" xml:space="preserve">
+    <value>String expected</value>
+  </data>
+  <data name="5006" xml:space="preserve">
+    <value>Date object expected</value>
+  </data>
+  <data name="5007" xml:space="preserve">
+    <value>Object expected;;'{0}' is null or not an object</value>
+  </data>
+  <data name="5008" xml:space="preserve">
+    <value>Illegal assignment</value>
+  </data>
+  <data name="5009" xml:space="preserve">
+    <value>Undefined identifier;;'{0}' is undefined</value>
+  </data>
+  <data name="5010" xml:space="preserve">
+    <value>Boolean expected</value>
+  </data>
+  <data name="5013" xml:space="preserve">
+    <value>VBArray expected</value>
+  </data>
+  <data name="5015" xml:space="preserve">
+    <value>Enumerator object expected</value>
+  </data>
+  <data name="5016" xml:space="preserve">
+    <value>Regular Expression object expected</value>
+  </data>
+  <data name="5017" xml:space="preserve">
+    <value>Syntax error in regular expression</value>
+  </data>
+  <data name="5022" xml:space="preserve">
+    <value>Exception thrown and not caught</value>
+  </data>
+  <data name="5023" xml:space="preserve">
+    <value>Function does not have a valid prototype object</value>
+  </data>
+  <data name="5024" xml:space="preserve">
+    <value>The URI to be encoded contains an invalid character</value>
+  </data>
+  <data name="5025" xml:space="preserve">
+    <value>The URI to be decoded is not a valid encoding</value>
+  </data>
+  <data name="5026" xml:space="preserve">
+    <value>The number of fractional digits is out of range</value>
+  </data>
+  <data name="5027" xml:space="preserve">
+    <value>The precision is out of range</value>
+  </data>
+  <data name="5029" xml:space="preserve">
+    <value>Array length must be zero or a positive integer</value>
+  </data>
+  <data name="5030" xml:space="preserve">
+    <value>Array length must be assigned a positive integer or zero</value>
+  </data>
+  <data name="5031" xml:space="preserve">
+    <value>Array object expected;;'{0}' is not an Array object</value>
+  </data>
+  <data name="5032" xml:space="preserve">
+    <value>No such constructor</value>
+  </data>
+  <data name="5033" xml:space="preserve">
+    <value>Eval may not be called via an alias</value>
+  </data>
+  <data name="5034" xml:space="preserve">
+    <value>Not yet implemented</value>
+  </data>
+  <data name="5035" xml:space="preserve">
+    <value>Cannot provide null or empty named parameter name</value>
+  </data>
+  <data name="5036" xml:space="preserve">
+    <value>Duplicate named parameter name</value>
+  </data>
+  <data name="5037" xml:space="preserve">
+    <value>The specified name is not the name of a parameter</value>
+  </data>
+  <data name="5038" xml:space="preserve">
+    <value>Too few arguments specified. The number of parameter names cannot exceed the number of arguments passed in</value>
+  </data>
+  <data name="5039" xml:space="preserve">
+    <value>The expression cannot be evaluated in the debugger</value>
+  </data>
+  <data name="5040" xml:space="preserve">
+    <value>Assignment to read-only field or property;;'{0}' is read-only</value>
+  </data>
+  <data name="5041" xml:space="preserve">
+    <value>The property can only be assigned to</value>
+  </data>
+  <data name="5042" xml:space="preserve">
+    <value>The number of indices does not match the dimension of the array</value>
+  </data>
+  <data name="5043" xml:space="preserve">
+    <value>Methods with ref parameters cannot be called in the debugger</value>
+  </data>
+  <data name="5044" xml:space="preserve">
+    <value>The Deny, PermitOnly and Assert security methods cannot be called using late binding</value>
+  </data>
+  <data name="5045" xml:space="preserve">
+    <value>JScript does not support declarative security attributes</value>
+  </data>
+  <data name="5046" xml:space="preserve">
+    <value>A target threw a non-CLS exception</value>
+  </data>
+  <data name="6000" xml:space="preserve">
+    <value>Function evaluation was aborted</value>
+  </data>
+  <data name="6001" xml:space="preserve">
+    <value>Function evaluation timed out</value>
+  </data>
+  <data name="6002" xml:space="preserve">
+    <value>Function evaluation failed : the thread is suspended</value>
+  </data>
+  <data name="6003" xml:space="preserve">
+    <value>Function evaluation failed : the thread is sleeping, waiting on an object, or waiting for another thread to finish</value>
+  </data>
+  <data name="6004" xml:space="preserve">
+    <value>Function evaluation failed : the thread is in a bad state</value>
+  </data>
+  <data name="6005" xml:space="preserve">
+    <value>Function evaluation failed : the thread has not started</value>
+  </data>
+  <data name="6006" xml:space="preserve">
+    <value>Function evaluation aborted. To turn property evaluation on go to Tools - Options - Debugging</value>
+  </data>
+  <data name="6007" xml:space="preserve">
+    <value>Function evaluation cannot be done when stopped at this point in the program</value>
+  </data>
+  <data name="6008" xml:space="preserve">
+    <value>Cannot call a web method in the debugger</value>
+  </data>
+  <data name="6009" xml:space="preserve">
+    <value>Static variable is not available</value>
+  </data>
+  <data name="6010" xml:space="preserve">
+    <value>The type object for this type is not available</value>
+  </data>
+  <data name="6011" xml:space="preserve">
+    <value>Exception thrown;;Exception from HRESULT : {0}</value>
+  </data>
+  <data name="6012" xml:space="preserve">
+    <value>This expression causes side effects and will not be evaluated</value>
+  </data>
+  <data name="escape" xml:space="preserve">
+    <value>Use encodeURI instead</value>
+  </data>
+  <data name="getYear" xml:space="preserve">
+    <value>Use getFullYear instead</value>
+  </data>
+  <data name="setYear" xml:space="preserve">
+    <value>Use setFullYear instead</value>
+  </data>
+  <data name="substr" xml:space="preserve">
+    <value>Use substring instead</value>
+  </data>
+  <data name="toGMTString" xml:space="preserve">
+    <value>Use toUTCString instead</value>
+  </data>
+  <data name="unescape" xml:space="preserve">
+    <value>Use decodeURI instead</value>
+  </data>
+  <data name="Assembly not found" xml:space="preserve">
+    <value>Assembly not found;;Referenced assembly '{0}' could not be found</value>
+  </data>
+  <data name="Cannot create JScript engine" xml:space="preserve">
+    <value>Cannot create JScript engine</value>
+  </data>
+  <data name="Command line error" xml:space="preserve">
+    <value>Command line error;;Command line error: {0}</value>
+  </data>
+  <data name="Compiler constant" xml:space="preserve">
+    <value>Cannot change value of compiler constant;;Cannot change value of compiler constant '{0}'</value>
+  </data>
+  <data name="Duplicate resource file" xml:space="preserve">
+    <value>Duplicate resource file reference;;Resource file '{0}' referenced more than once</value>
+  </data>
+  <data name="Duplicate resource name" xml:space="preserve">
+    <value>Duplicate resource name;;Resource name '{0}' is not unique</value>
+  </data>
+  <data name="Incompatible targets" xml:space="preserve">
+    <value>CompilerParameters.GenerateExecutable and CompilerParameters.CompilerOptions specify incompatible target types;;The value of CompilerParameters.GenerateExecutable is not compatible with '{0}'</value>
+  </data>
+  <data name="Invalid assembly" xml:space="preserve">
+    <value>Invalid assembly reference;;'{0}' is not a valid assembly</value>
+  </data>
+  <data name="Invalid characters" xml:space="preserve">
+    <value>File name contains invalid characters (wildcard characters are not supported);;File name '{0}' contains invalid characters (wildcard characters are not supported)</value>
+  </data>
+  <data name="Invalid code page" xml:space="preserve">
+    <value>Code page is invalid or not installed;;Code page '{0}' is invalid or not installed</value>
+  </data>
+  <data name="Invalid definition" xml:space="preserve">
+    <value>Definitions must be assigned a boolean or integral value;;Definition '{0}' must be assigned a boolean or integral value</value>
+  </data>
+  <data name="Invalid for CompilerOptions" xml:space="preserve">
+    <value>Invalid option in CompilerOptions field;;Options of the form '{0}' are not allowed in the CompilerOptions field</value>
+  </data>
+  <data name="Invalid Locale ID" xml:space="preserve">
+    <value>Locale ID is invalid or not installed;;Locale ID '{0}' is invalid or not installed</value>
+  </data>
+  <data name="Invalid source file" xml:space="preserve">
+    <value>Invalid source file;;'{0}' is not a valid source file</value>
+  </data>
+  <data name="Invalid platform" xml:space="preserve">
+    <value>Platform is invalid. Specify 'x86', 'Itanium', 'x64', or 'anycpu';;Platform '{0}' is invalid. Specify 'x86', 'Itanium', 'x64', or 'anycpu'</value>
+  </data>
+  <data name="Invalid target" xml:space="preserve">
+    <value>Target type is invalid. Specify 'exe', 'winexe', or 'library';;Target '{0}' is invalid. Specify 'exe', 'winexe', or 'library'</value>
+  </data>
+  <data name="Invalid version" xml:space="preserve">
+    <value>Invalid version argument;;'{0}' is not a valid version string </value>
+  </data>
+  <data name="Invalid warning level" xml:space="preserve">
+    <value>Invalid warning level;;Invalid warning level specified with option '{0}'</value>
+  </data>
+  <data name="Duplicate file as source and assembly" xml:space="preserve">
+    <value>File name is listed as both a source file and an imported assembly;;Duplicate file name: '{0}' is listed as both a source file and an imported assembly</value>
+  </data>
+  <data name="Duplicate source file" xml:space="preserve">
+    <value>File name is listed as a source file more than once;;Duplicate file name: '{0}' is listed as a source file more than once</value>
+  </data>
+  <data name="Error saving compiled state" xml:space="preserve">
+    <value>Error: Could not save compiled state;;Error saving compiled state: {0}</value>
+  </data>
+  <data name="Managed resource not found" xml:space="preserve">
+    <value>Managed resource not found;;Managed resource '{0}' was not found</value>
+  </data>
+  <data name="Missing define argument" xml:space="preserve">
+    <value>Missing identifier for '/define:' command line option</value>
+  </data>
+  <data name="Missing extension" xml:space="preserve">
+    <value>Missing file extension;; Missing file extension for '{0}'</value>
+  </data>
+  <data name="Missing lib argument" xml:space="preserve">
+    <value>Missing file specification for '/lib:' command line option</value>
+  </data>
+  <data name="Missing reference" xml:space="preserve">
+    <value>Missing reference in argument list;;Missing reference in argument list '{0}'</value>
+  </data>
+  <data name="Missing version info" xml:space="preserve">
+    <value>Missing version info in /assembly.version option</value>
+  </data>
+  <data name="Multiple output filenames" xml:space="preserve">
+    <value>Multiple output filenames specified</value>
+  </data>
+  <data name="Multiple targets" xml:space="preserve">
+    <value>Multiple targets specified</value>
+  </data>
+  <data name="Multiple win32resources" xml:space="preserve">
+    <value>Cannot specify more than one Win32 resource file</value>
+  </data>
+  <data name="Nested response files" xml:space="preserve">
+    <value>Cannot process nested response files</value>
+  </data>
+  <data name="No code page" xml:space="preserve">
+    <value>No code page is specified;;No code page is specified with option '{0}'</value>
+  </data>
+  <data name="No filename" xml:space="preserve">
+    <value>No filename specified;;No filename specified with option '{0}'</value>
+  </data>
+  <data name="No input sources specified" xml:space="preserve">
+    <value>No input sources specified</value>
+  </data>
+  <data name="No Locale ID" xml:space="preserve">
+    <value>No Locale ID is specified;;No Locale ID is specified with option '{0}'</value>
+  </data>
+  <data name="No warning level" xml:space="preserve">
+    <value>No warning level specified;;No warning level specified with option '{0}'</value>
+  </data>
+  <data name="Resource not found" xml:space="preserve">
+    <value>Win32 resource not found;;Win32 resource '{0}' was not found</value>
+  </data>
+  <data name="Source not found" xml:space="preserve">
+    <value>Source file not found;;Could not find file '{0}'</value>
+  </data>
+  <data name="Unknown option" xml:space="preserve">
+    <value>Unknown option;;Unknown option '{0}'</value>
+  </data>
+  <data name="INTERNAL COMPILER ERROR" xml:space="preserve">
+    <value>***INTERNAL COMPILER ERROR***</value>
+  </data>
+  <data name="No event declarations" xml:space="preserve">
+    <value>Event declarations are not supported by JScript.</value>
+  </data>
+  <data name="No delegate declarations" xml:space="preserve">
+    <value>Delegate declarations are not supported by JScript.</value>
+  </data>
+  <data name="No event references" xml:space="preserve">
+    <value>JScript does not allow event references such as ob.foo where foo is an event name.</value>
+  </data>
+  <data name="No goto statements" xml:space="preserve">
+    <value>Goto statements are not supported by JScript.</value>
+  </data>
+  <data name="No indexer declarations" xml:space="preserve">
+    <value>Indexer properties cannot be declared in JScript.</value>
+  </data>
+  <data name="No parameter attributes" xml:space="preserve">
+    <value>Custom attributes on parameter declarations are not supported by JScript.</value>
+  </data>
+  <data name="No parameter direction" xml:space="preserve">
+    <value>Declaring parameters to be 'out' or 'ref' is not supported by JScript.</value>
+  </data>
+  <data name="Only methods on interfaces" xml:space="preserve">
+    <value>Interfaces can not contain delegates or fields.</value>
+  </data>
+  <data name="No error output" xml:space="preserve">
+    <value>There was an error creating or opening the output file.  Here are details:</value>
+  </data>
+  <data name="Too many base types" xml:space="preserve">
+    <value>An enum may have at most one base type</value>
+  </data>
+  <data name="Banner line 1" xml:space="preserve">
+    <value>Microsoft (R) JScript Compiler version {0}</value>
+  </data>
+  <data name="Banner line 2" xml:space="preserve">
+    <value>for Microsoft (R) Shared Source CLI version {0}</value>
+  </data>
+  <data name="Banner line 3" xml:space="preserve">
+    <value>Copyright (C) Microsoft Corporation 1996-2005. All rights reserved.</value>
+  </data>
+  <data name="Include debug information" xml:space="preserve">
+    <value>Include debug information</value>
+  </data>
+  <data name="Output name" xml:space="preserve">
+    <value>Output name</value>
+  </data>
+  <data name="Target" xml:space="preserve">
+    <value>Target</value>
+  </data>
+  <data name="Treat warnings as errors" xml:space="preserve">
+    <value>Treat warnings as errors</value>
+  </data>
+  <data name="Warning level" xml:space="preserve">
+    <value>Warning level</value>
+  </data>
+  <data name="Win32 resource" xml:space="preserve">
+    <value>Win32 resource</value>
+  </data>
+  <data name="Referenced assemblies" xml:space="preserve">
+    <value>Referenced assemblies</value>
+  </data>
+  <data name="CmdLine helper" xml:space="preserve">
+    <value>Command line to investigate with JSC</value>
+  </data>
+  <data name="No Source Context available" xml:space="preserve">
+    <value>No Source Context available</value>
+  </data>
+  <data name="Parser Exception" xml:space="preserve">
+    <value>Parsing error</value>
+  </data>
+  <data name="Scanner Exception" xml:space="preserve">
+    <value>Syntax error</value>
+  </data>
+  <data name="Bad binding flags" xml:space="preserve">
+    <value>Bad binding flags</value>
+  </data>
+  <data name="Bad name" xml:space="preserve">
+    <value>Name parameter must be specified unless BindingFlags.CreateInstance is set</value>
+  </data>
+  <data name="Too many arguments" xml:space="preserve">
+    <value>More arguments were passed in than expected</value>
+  </data>
+  <data name="Too few arguments" xml:space="preserve">
+    <value>Fewer arguments were passed in than expected</value>
+  </data>
+</root>
